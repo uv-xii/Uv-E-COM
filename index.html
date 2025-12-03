@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function validate(form){
+        var a1=form.t1.value;
+        var a2=form.pass1.value;
+        if(a1,a2!="admin"){
+        alert("Pls enter correct credentials");
+        return false;
+        }
+        else{
+            alert("Success");
+            
+        }
+    }
+</script>
+
+</head>
+<body>
+   <form id="loginForm" style="text-align: center; padding: 10px; margin: 10px;">
+  Username<input type="text" id="username" required><br><br>
+  Password<input type="password" id="password" required><br><br>
+  <button type="submit">Login</button>
+</form>
+
+<script>
+  document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // Prevent POST
+    // Optional: vali<br> username/password here
+    window.location.href = "shop.html"; // Redirect to shop page
+  });
+</script>
+</body>
+</html>

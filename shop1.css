@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(112, 203, 206);
+  gap: 10px;
+  
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 0.65px white;
+}
+.logo:hover{
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  transform: scale(1.05);
+  
+}
+.one a {
+    display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  
+  
+
+}
+.sect{
+    text-align: center;
+    font-weight: bolder;
+}
+.b1{
+    border-radius: 20px;
+    outline: invert;
+    border-width: 0px;
+    padding: 8px;
+    cursor: pointer;
+    }
+#footer{
+    background-color:rgb(112, 203, 206) ;
+    padding: 20px;
+    margin-top: 100%;
+    text-align: center;
+}
+button{
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+button:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+}
+button:active{
+    background-color: azure;
+    
+}
+logo{
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+logo:hover{
+    background-color: aliceblue;
+    transform: scale(1.2);
+}
+a{
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+a:hover{
+    transform: scale(1.2);
+}
+a:active{
+
+    transform: rotate(0deg,360deg);
+    color: white;
+}
+
